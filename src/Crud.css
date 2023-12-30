@@ -1,0 +1,47 @@
+.sec{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+button{
+    background-color:orange;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+table{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+.userinput{
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 22, 22);   
+    border-radius: 10px; 
+    margin: 150px;
+    margin-left: 600px;
+    gap: 40px;
+    padding: 30px;
+}
+input{
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:inherit ;
+    border-radius: 5px;
+    width: 180px;
+    color: rgb(46, 143, 111);
+    margin: 5px;
+}
+.submit{
+    align-items: center;
+    background-color: azure;
+    margin-left: 40px;
+}
